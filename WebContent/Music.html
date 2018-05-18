@@ -1,0 +1,38 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Store</title>
+
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+  </head>
+  <body>
+    <div class="container">
+      <div class="span-4 colborder">
+        <hr><h3><a href="Books.html">Books</a></h3>
+        <h3><a href="Music.html">Music</a></h3>
+        <h3><a href="Computers.html">Computers</a></h3>
+      </div>
+      <div class="span-15">
+        <hr>
+          <h3>Shop for CDs</h3>
+        <hr>
+        <p align="right" ><a href="cart">[View Cart]</a></p>
+        <form action = 'add?page=cd' method = 'post'>
+          <input type="checkbox" name="cd" value="6"/>I'm Going to Tell You a Secret by Madonna [$26.99]<br/><br/>
+          <input type="checkbox" name="cd" value="7"/>Baby One More Time by Britney Spears [$10.95]<br/><br/>
+          <input type="checkbox" name="cd" value="8"/>Justified by Justin Timberlake [$9.97]<br/><br/>
+          <input type="checkbox" name="cd" value="9"/>Loose by Nelly Furtado [$13.98]<br/><br/>
+          <input type="checkbox" name="cd" value="10"/>Gold Digger by Kanye West [$27.99]<br/><br/>
+          <input type='submit' value ='Add to Cart' name = 'button'/>
+        </form>
+      </div>      
+    </div>
+  </body>
+</html>
